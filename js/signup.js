@@ -32,8 +32,7 @@ function registerUser(event) {
       usuariosCollection
         .add({
           email: email,
-          password: password, // Guardar la contraseña es una mala práctica por motivos de seguridad.
-          // En lugar de guardar la contraseña, es recomendable manejarla con Firebase Authentication.
+          password: password, 
         })
         .then(function (docRef) {
           console.log("Usuario guardado en Firestore con ID:", docRef.id);
