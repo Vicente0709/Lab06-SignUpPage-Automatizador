@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+    <form class="form-login">
+        <h1 name="title">Login</h1>
+        <div class="image">
+            <img src="img/fis.png" alt="logo">
+
+        </div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <button id="loginButton">
+            Ingresar
+        </button>
+        <a href="/signup.html">Registrate</a>
+    </form>
+
+
+
+</body>
+
+<!--Scripts-->
+<script src="js/firebase.js" type="module"></script>
+<script src="js/login.js"></script>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Establece el tipo de fuente para el cuerpo del documento */
+    background-color: #190101; /* Establece el color de fondo del cuerpo */
+    display: flex; /* Utiliza el modelo de caja flexible para alinear los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 100vh; /* Establece la altura del cuerpo al 100% del alto de la ventana */
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+  }
+  .image {
+    display: flex; /* Utiliza el modelo de caja flexible para el contenedor de la imagen */
+    justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  
+  .image img {
+    width: 100px; /* Establece el ancho de la imagen en 100 píxeles */
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente según la proporción */
+    margin: 0 auto; /* Establece márgenes automáticos en los lados izquierdo y derecho, lo que centrará horizontalmente la imagen dentro del contenedor */
+  }
+  
+  .form-signup {
+    width: 300px; /* Establece el ancho del formulario */
+    background-color: white; /* Establece el color de fondo del formulario */
+    padding: 20px; /* Agrega un relleno interno al formulario */
+    border-radius: 5px; /* Agrega esquinas redondeadas al formulario */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra al formulario */
+  }
+  
+  h1[name="title"] {
+    text-align: center; /* Centra el texto del título */
+    margin-bottom: 20px; /* Agrega un margen inferior al título */
+  }
+  
+  label {
+    display: block; /* Hace que las etiquetas se muestren en bloque */
+    font-weight: bold; /* Establece el peso de la fuente en negrita para las etiquetas */
+    margin-bottom: 5px; /* Agrega un margen inferior a las etiquetas */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 95%; /* Establece el ancho de los campos de entrada */
+    padding: 8px; /* Agrega un relleno interno a los campos de entrada */
+    margin-bottom: 10px; /* Agrega un margen inferior a los campos de entrada */
+    border: 1px solid #ccc; /* Agrega un borde de 1 píxel a los campos de entrada */
+    border-radius: 3px; /* Agrega esquinas redondeadas a los campos de entrada */
+  }
+  
+  button {
+    width: 100%; /* Establece el ancho del botón de registro */
+    padding: 10px; /* Agrega un relleno interno al botón de registro */
+    background-color: #4CAF50; /* Establece el color de fondo del botón de registro */
+    color: white; /* Establece el color del texto del botón de registro */
+    border: none; /* Elimina el borde del botón de registro */
+    border-radius: 3px; /* Agrega esquinas redondeadas al botón de registro */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima del botón */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cambia el color de fondo del botón de registro al pasar por encima */
+  }
+  

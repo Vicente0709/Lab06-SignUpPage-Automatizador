@@ -1,0 +1,65 @@
+/* Estilos del navbar */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-item {
+  display: block;
+  padding: 5px 0;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #ccc;
+  margin: 5px 0;
+}
+
+/* Estilos del botón del carrito */
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.badge {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
